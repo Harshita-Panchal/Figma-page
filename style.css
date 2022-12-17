@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    background-image: url(/Assets/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logsing {
+    display: flex;
+    color: white;
+}
+
+.logo {
+    padding: 25px 0 0 30px;
+}
+
+.logsing p {
+    padding: 25px 30px 0 0;
+}
+
+.middel {
+    display: flex;
+    padding-top: 206px;
+    padding-left: 30px;
+    color: white;
+}
+
+.middel h1 {
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+
+.middel p {
+    text-decoration: underline;
+}
+
+.middel p img {
+    height: 9px;
+}
+
+.middel img {
+    height: 20px;
+}
+
+footer {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 297px 0px 0px auto;
+    padding-left: 15px;
+}
+
+button {
+    background: #FC4500;
+    border: none;
+    width: 270px;
+    padding: 30px;
+    color: white;
+}
+
+footer div p {
+    padding-top: 15px;
+    color: #999999;
+}
+
+@media (min-width:360px) and (max-width: 749px) {
+    footer {
+        flex-wrap: wrap;
+        margin: 173px auto;
+    }
+
+    footer h5 {
+        padding-top: 15px;
+    }
+}
