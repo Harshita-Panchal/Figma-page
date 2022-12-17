@@ -5,7 +5,7 @@
 }
 
 .main-container {
-    background-image: url(/Assets/bg.png);
+    background-image: url("Assets/bg.png");
     height: 100vh;
     background-repeat: no-repeat;
     width: 100%;
